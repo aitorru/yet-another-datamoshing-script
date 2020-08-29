@@ -9,6 +9,11 @@
 int main(int argc, char const *argv[])
 {
     /* code */
+    if (argc != 6)
+    {
+        std::cout << "Bad call" << std::endl;
+        exit(5);
+    }
     char *filename = (char *)argv[1];
 
     FILE *binFile;
