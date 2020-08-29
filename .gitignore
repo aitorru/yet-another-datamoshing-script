@@ -1,0 +1,10 @@
+.vscode
+CMakeFiles
+*mov
+*m4a
+tt.txt
+dd.txt
+cmake_install.cmake
+CMakeCache.txt
+datamosh
+Makefile
