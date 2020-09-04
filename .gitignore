@@ -8,3 +8,10 @@ cmake_install.cmake
 CMakeCache.txt
 datamosh
 Makefile
+ALL_BUILD.vcxproj
+ALL_BUILD.vcxproj.filters
+datamosh.sln
+datamosh.vcxproj
+datamosh.vcxproj.filters
+ZERO_CHECK.vcxproj
+ZERO_CHECK.vcxproj.filters

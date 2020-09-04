@@ -9,7 +9,11 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    std::cout << "Bad call. You called: " << argc << std::endl;
+    for (int i = 0; i < argc; i++)
+    {
+        std::cout << i << " number. Data: " << argv[i] << std::endl;
+    }
+    std::cout << "You called: " << argc << std::endl;
     char *filename = (char *)argv[1];
 
     FILE *binFile;
