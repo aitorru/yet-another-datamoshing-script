@@ -9,11 +9,7 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    if (argc != 6)
-    {
-        std::cout << "Bad call" << std::endl;
-        exit(5);
-    }
+    std::cout << "Bad call. You called: " << argc << std::endl;
     char *filename = (char *)argv[1];
 
     FILE *binFile;
@@ -105,11 +101,6 @@ int main(int argc, char const *argv[])
             {
                 buffer[lowNoEdit + i + ii] = buffer[lowNoEdit + i];
             }
-            for (int ii = 0; ii < diff; ii++)
-            {
-                buffer[lowNoEdit + i + ii] = buffer[lowNoEdit + i - diff - diff];
-            }
-
             timesEdited++;
         }
         r++;
